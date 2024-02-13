@@ -1,0 +1,51 @@
+body{
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 50px;
+}
+.zindua_heading h1{
+    color: red;
+}
+
+.zindua_content h1{
+    color: blue;
+}
+
+span{
+    color: red;
+}
+
+form{
+    max-width: 400;
+    margin: 0 auto;
+}
+
+input[type="text"], textarea{
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+}
+input[type="submit"]:hover{
+    background-color: #454545;
+}
+
+table{
+    margin-top: 20px;
+    width: 100%;
+    border-collapse: collapse;
+    border: 2px solid red;
+    text-align: left;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
