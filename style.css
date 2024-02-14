@@ -67,10 +67,20 @@ th {
 }
 
 .programs{
-    display: grid;
-    /* justify-content: space-between; */
+     /* flex */
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   
+    /* grid */
+    
+    /* display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 20px;
+    gap: 20px; */
+
+    
 }
 
 .pro h2{
