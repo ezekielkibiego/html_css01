@@ -49,3 +49,30 @@ th, td {
 th {
     background-color: #f2f2f2;
 }
+
+.box {
+    width: 200px;
+    height: 150px;
+    padding: 10px;
+    border:  2px solid blue;
+    margin: 30px;
+    background-color: aquamarine;
+}
+
+.content {
+    background-color: black;
+    color: #f2f2f2;
+    height: 100%;
+    text-align: center;
+}
+
+.programs{
+    display: grid;
+    /* justify-content: space-between; */
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.pro h2{
+    color: red;
+}
